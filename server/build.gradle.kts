@@ -133,7 +133,7 @@ subprojects {
             implementation("com.openhtmltopdf:openhtmltopdf-core:1.0.10")
             implementation("com.openhtmltopdf:openhtmltopdf-pdfbox:1.0.10")
             implementation("org.jsoup:jsoup:1.17.2")
-            testImplementation("org.apache.pdfbox:pdfbox:2.0.1")
+            testImplementation("org.apache.pdfbox:pdfbox:3.0.2")
             implementation("com.microsoft.graph:microsoft-graph:5.80.0")
             implementation("com.azure:azure-identity:1.12.0")
         }
