@@ -10,7 +10,7 @@ plugins {
     id("com.jfrog.artifactory")
     id("global.genesis.build")
     id("org.sonarqube") version "4.4.1.3373"
-    id("org.gradle.test-retry") version "1.5.8"
+    id("org.gradle.test-retry") version "1.5.9"
     id("org.jetbrains.kotlinx.kover") version "0.7.6"
     id("com.bnorm.power.kotlin-power-assert") version "0.13.0"
 }
