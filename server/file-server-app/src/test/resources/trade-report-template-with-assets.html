@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trades Report</title>
+        <link rel="stylesheet" href="trade-report-with-assets.css">
+    </head>
+    <body>
+        <header>
+            <h1>ATTENTION!</h1>
+            <p>Please find below information regarding a critical notification and their respective assets.</p>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Currency</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>TradeDate</th>
+                    <th>TradeType</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td th:text="${trade.tradeId}">Trade ID</td>
+                    <td th:text="${trade.currencyId}">Currency</td>
+                    <td th:text="${trade.price}">Price</td>
+                    <td th:text="${trade.quantity}">Quantity</td>
+                    <td th:text="${trade.tradeDate}">TradeDate</td>
+                    <td th:text="${trade.tradeType}">TradeType</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Best regards,<br>Genesis</p>
+        <img src="genesis-logo.png" alt="Genesis">
+    </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "prerequisites": {
+    "foundationUI": "@foundationVersion@",
+    "gsf": "@genesisVersion@"
+  },
+  "dependencies": {
+    "pbcDocuments": "@client.version@",
+    "serverDepId": "@server.version@"
+  }
+}

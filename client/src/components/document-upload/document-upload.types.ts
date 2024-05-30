@@ -1,0 +1,7 @@
+export enum UploadState {
+    START = 'START',
+    ERROR = 'ERROR',
+    UPLOADING = 'UPLOADING',
+    UPLOADING_UPLOADED = 'UPLOADING_UPLOADED',
+    UPLOADED = 'UPLOADED',
+}

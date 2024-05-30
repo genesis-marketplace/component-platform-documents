@@ -1,0 +1,3 @@
+<configuration>
+    <service host="localhost" name="FILE_MANAGER" port="8015" />
+</configuration>

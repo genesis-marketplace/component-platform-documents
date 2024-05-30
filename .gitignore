@@ -1,0 +1,41 @@
+.idea/
+/genesis-parent/genesis-maven-submodules/**/target/
+documentation/_book/
+*.iml
+*.classpath
+*.project
+.settings
+.factorypath
+.scannerwork
+null/
+genesis-parent/genesis-clustersupport/outbound.q/
+genesis-parent/genesis-dbtest/null/
+*~
+*.pyc
+/**/node_modules/
+/**/dist/
+/venv
+/genesis-parent/genesis-notify/datafeed.id
+#gradle
+.gradle
+**/build/
+**/bin/
+!src/**/build/
+
+**/.DS_Store
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+/genesis-parent/subcore/build/
+
+# Gradle's build cache
+**/build-cache
+out/
+
+*.log

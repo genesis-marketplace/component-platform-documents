@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trades Report</title>
+        <link rel="stylesheet" href="trades.css">
+    </head>
+    <body>
+    
+        <header>
+            <h1>Trades List</h1>
+            <p>Please find below the executed trades for today.</p>
+        </header>
+        
+        <img src="genesis-logo.png" alt="Genesis">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>PRICE</th>
+                    <th>QUANTITY</th>
+                    <th>COUNTERPARTY</th>
+                    <th>SIDE</th>
+                <th>ACCOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="trade : ${trades}">
+                    <td th:text="${trade.price}">1.00</td>
+                    <td th:text="${trade.quantity}">1000</td>
+                    <td th:text="${trade.counterparty}">Counterparty1</td>
+                    <td th:text="${trade.side}">BUY</td>
+                    <td th:text="${trade.account}">Account1</td>
+                </tr>
+            </tbody>
+        </table>
+    
+    </body>
+</html>

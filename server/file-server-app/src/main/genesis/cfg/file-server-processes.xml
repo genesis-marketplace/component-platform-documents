@@ -1,0 +1,12 @@
+<processes>
+    <process name="FILE_MANAGER">
+        <groupId>FILE_SERVER</groupId>
+        <start>true</start>
+        <options>-Xmx768m -DXSD_VALIDATE=false</options>
+        <module>file-server-app</module>
+        <package>global.genesis.dataserver.pal,global.genesis.requestreply.pal,global.genesis.file</package>
+        <script>file-server-dataserver.kts,file-server-reqrep.kts</script>
+        <description>Management of file storage data</description>
+        <language>pal</language>
+    </process>
+</processes>

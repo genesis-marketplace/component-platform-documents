@@ -1,0 +1,5 @@
+"CODE","DESCRIPTION"
+"FileStorageView","Ability to view any file storage resource"
+"FileStorageUpload","Ability to upload to file storage"
+"FileStorageDownload","Ability to download from file storage"
+"FileStorageAdminAction","Ability to perform any file storage admin action"

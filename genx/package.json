@@ -1,0 +1,10 @@
+{
+  "name": "@genesislcap/pbc-documents-seed",
+  "version": "1.2.2",
+  "description": "Genesis Document Management PBC",
+  "license": "SEE LICENSE IN license.txt",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {}
+}

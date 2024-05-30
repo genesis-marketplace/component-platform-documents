@@ -1,0 +1,18 @@
+name: Build Project
+
+on:
+  # Using target instead of pull_request to allow dependabot to access secrets and pass to the shared workflow.
+  pull_request_target:
+
+jobs:
+  build:
+    uses: genesislcap/platform-releases/.github/workflows/product-gradle-pr-build.yaml@master
+    with:
+      repository: genesislcap/genesis-file-server
+      branch-ref: ${{ github.event.pull_request.head.sha }}
+      sonar-scan: true
+    secrets:
+      JFROG_RO_USER : ${{ secrets.JFROG_RO_USER }}
+      JFROG_RO_PASSWORD : ${{ secrets.JFROG_RO_PASSWORD }}
+      SONAR_TOKEN : ${{ secrets.JENKINSGENESIS_SONAR }}
+      GPR_READ_TOKEN : ${{ secrets.GPR_READ_TOKEN }}

@@ -1,0 +1,20 @@
+name: Update Genesis Dependencies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *' # 08:00 AM
+
+permissions:
+  contents: write
+  pull-requests: write
+  repository-projects: write
+
+jobs:
+  update-deps:
+    uses: genesislcap/platform-releases/.github/workflows/product-gradle-update-genesis-dependencies.yaml@master
+    with:
+      repository: genesislcap/genesis-file-server
+    secrets:
+      GITHUB_REPO_READ_TOKEN : ${{ secrets.GPR_READ_TOKEN }}
+      GITHUB_REPO_WRITE_TOKEN: ${{ secrets.GITHUB_TOKEN }}

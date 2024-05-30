@@ -1,0 +1,3 @@
+"NAME","DESCRIPTION","STATUS"
+"FILE_STORAGE_USER","File Storage User has the ability to perform any user action related to file storage","ENABLED"
+"FILE_STORAGE_ADMIN","File Storage Admin has the ability to perform any admin action related to file storage","ENABLED"

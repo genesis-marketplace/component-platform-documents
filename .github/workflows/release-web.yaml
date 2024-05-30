@@ -1,0 +1,22 @@
+name: Build and Release webui packages
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'client/**/*'
+      - '!client/package.json'
+      - '!client/package-lock.json'
+
+jobs:
+  trigger-release:
+    runs-on: ubuntu-latest
+    environment: release
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.JENKINSGENESIS_TOKEN }}
+          repository: genesislcap/platform-releases
+          event-type: webui_release
+          client-payload: '{"repository": "genesislcap/genesis-file-server", "release-branch": "master"}'

@@ -1,0 +1,18 @@
+import type { AppMetadata } from '@genesislcap/foundation-shell/app';
+
+/**
+ * @public
+ */
+export const metadata: AppMetadata = {
+  name: '@genesislcap/pbc-documents-ui',
+  description: 'Genesis Documents PBC',
+  version: '@pbc.version@',
+  prerequisites: {
+    '@genesislcap/foundation-ui': '@foundationVersion@',
+    gsf: '@genesisVersion@',
+  },
+  dependencies: {
+    '@genesislcap/pbc-documents-ui': '@client.version@',
+    serverDepId: '@server.version@',
+  },
+};

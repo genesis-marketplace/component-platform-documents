@@ -1,0 +1,46 @@
+Developer License Agreement
+
+This Developer License Agreement (the “Agreement”) is entered into by and between Genesis, Global FinTech Inc.(“Genesis”) and you and/or the entity on whose behalf you are downloading the Software (as defined below) (“you”). This Agreement forms a legally binding contract between you and Genesis in relation to your use of the software libraries, reference implementations, and other related demonstration code (collectively, the “Genesis Software”). [a]
+
+To use the Software, you must first agree to this Agreement. You may not use the Software if you do not agree to be bound by the terms of this Agreement. Accordingly, you and Genesis acknowledge and agree as follows:
+
+1. LIMITED LICENSE.
+Subject to your complete and ongoing compliance with all the terms and conditions set forth in this Agreement, including without limitation all license limitations and restrictions set forth herein, Genesis grants you the following limited, non-exclusive, non-transferable, non-sublicensable, revocable licenses to use, and (where applicable) authorize your employees to use, the Software internally solely in connection with building, developing and testing your own applications that interoperate with or incorporate the Software (“Applications”) for the purposes of evaluation.
+
+2. RESTRICTIONS.
+A. By accessing or using the Software, you represent, warrant, and covenant that (a) you are a person or business entity engaged in the development of software applications, and (b) in the case of a business entity, you have the full power and authority to bind such entity to the terms of this Agreement.
+B. You acknowledge that the foregoing license does not include any right to:
+(i) redistribute, sell, lease, license, modify or otherwise create any derivative works of any portion of the Software, or;
+(ii) distribute, deploy, or otherwise utilize Applications on a public, production, commercial, or other similar purpose other than internal use for evaluation and the development of non-public, experimental Applications (any other public, production, commercial, or similar use requires a separate agreement with Genesis), or
+(iii) use or implement any undocumented feature or API or use any documented feature or API other than in accordance with applicable documentation. You agree to not to do any of the foregoing.
+C. Except as expressly provided herein, you may not:
+(a) reproduce, distribute, publicly display, or publicly perform any part of the Software;
+(b) decompile, reverse engineer, or otherwise access or attempt to access the source code for the Software not made available to you in source code form;
+(c) make or attempt to make any modification to, or otherwise create derivative works of the Software; or
+(d) remove, obscure, interfere with or circumvent any feature of the Software, including without limitation any copyright or other intellectual property notices, security, or access control mechanism;
+(f) use the Software to do anything illegal, including facilitating, promoting, or otherwise encouraging any illegal activities.
+
+3. RESERVATION OF RIGHTS.
+A. The Software is owned by Genesis and licensed, not sold, to you. The Software, content, visual interfaces, interactive features, information, graphics, design, compilation, computer code, products, services, and all other elements of the Software and related documentation (the “Materials“), are protected by copyright, trade dress, patent, and trademark laws of the United States and other jurisdictions, international conventions, and all other relevant intellectual property and proprietary rights, and applicable laws (collectively, the “Intellectual Property Rights“).
+B. You agree that Genesis or its subsidiaries or affiliated companies and/or its third-party licensors own all legal right, title and interest in and to the Software and Materials, including any and all Intellectual Property Rights. Genesis reserves all rights not expressly granted in this Agreement. You do not acquire any right, interest or title to the Materials, whether by implication, estoppel, or otherwise, except for the limited rights set forth in this Agreement.
+C. You agree that the form and nature of the Software that Genesis provides may change without prior notice to you and that future versions of the Software may be incompatible with applications developed on previous of the Software. You agree that Genesis may stop (permanently or temporarily) providing the Software (or any features within the Software) to you or to users generally at Genesis’s sole discretion, without prior notice to you. Nothing in this Agreement gives you a right to use any of Genesis’s trade names, trademarks, service marks, logos, domain names, or other distinctive brand features.
+
+4. TERMINATION.
+At Genesis’s sole discretion, Genesis may terminate your Developer License and cease provision of the Genesis Software with or without notice, effective immediately, for any reason or no reason at all. Upon the expiration or termination of this Agreement all rights and licenses granted under this Agreement will immediately terminate.
+
+5. THIRD PARTY SOFTWARE.
+The Software consists of a package of components and may include references to certain third-party software (“Third Party Software”) that are provided by their authors under separate license terms (the “Third Party Terms”). Your use of any such Third-Party Software in conjunction with the Software in a manner consistent with this Agreement is permitted, however, you may have broader rights and/or restrictions under the applicable Third-Party Terms. Genesis cannot accept any responsibility for the Third-Party Software or your use thereof.
+
+6. DISCLAIMER OF WARRANTIES.
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SOFTWARE IS AT YOUR SOLE RISK AND THAT THE SOFTWARE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTY OF ANY KIND FROM GENESIS. YOUR USE OF THE SOFTWARE AND ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SOFTWARE IS AT YOUR OWN DISCRETION AND RISK AND YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR OTHER DEVICE OR LOSS OF DATA THAT RESULTS FROM SUCH USE. GENESIS FURTHER EXPRESSLY DISCLAIMS ALL WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. GENESIS EXPRESSLY DISCLAIMS ANY WARRANTIES OF ANY KIND WITH RESPECT TO THE ACCURACY OR FUNCTIONALITY OF THE SOFTWARE, AND WITH RESPECT TO THE ACCURACY, VALIDITY, OR COMPLETENESS OF ANY INFORMATION OR FEATURES AVAILABLE THROUGH THE SOFTWARE, OR THE QUALITY OR CONSISTENCY OF THE SOFTWARE OR RESULTS OBTAINED THROUGH ITS USE.
+
+7. INDEMNIFICATION. To the maximum extent permitted by law, you agree to defend, indemnify, and hold harmless Genesis, its affiliates, and their respective directors, officers, employees, and agents, from and against any and all third-party claims, actions, suits, or proceedings, as well as any and all losses, liabilities, damages, costs, and expenses (including reasonable attorneys’ fees) arising out of or accruing from (a) your breach of this Developer License; (b) your use or misuse of the Genesis Software; (c) your negligence or willful misconduct; and/or (d) your use of the Genesis Software that actually or allegedly infringes any Intellectual Property Rights or privacy rights of any third party in any jurisdiction.
+
+8. MISCELLANEOUS.
+(a) If you are agreeing to be bound by this Agreement on behalf of your employer or other entity, you represent and warrant that you have full legal authority to bind your employer or such entity to this Agreement. If you do not have the requisite authority, you may not accept this Agreement on behalf of your employer or other entity.
+(b) This Developer License shall be governed by, and construed in accordance with, the laws of the State of New York without regard to conflict of law principles. For all purposes of this Developer License, the parties’ consent to exclusive jurisdiction and venue in the state and federal courts located in New York County, New York.
+(c) Nothing in this Agreement, or in the nature of your access and use of the Genesis Software, shall create or is intended to create a joint-venture, partnership, or agency relationship between you and Genesis.
+(d) You may not assign or transfer this Agreement or any of your rights or obligations hereunder, absent the prior written consent of Genesis.
+(e) You agree that if Genesis does not exercise or enforce any legal right or remedy contained in this Agreement, this will not be taken to be a formal waiver of Genesis’s rights and that those rights or remedies will still be available to Genesis.
+(f) This Agreement constitutes the complete understanding between you and Genesis with respect to the subject matter contained herein, and supersedes all prior written or oral communications, understandings, and agreements.
+(g) If any provision of this Agreement is deemed to be illegal, invalid, or unenforceable, then that provision shall be removed, and the remaining terms will continue to be valid and enforceable.

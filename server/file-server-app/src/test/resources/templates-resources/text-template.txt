@@ -1,0 +1,7 @@
+This is an example text template.
+
+Price: {{PRICE}}
+Quantity: {{QUANTITY}}
+Counterparty: {{COUNTERPARTY}}
+Side: {{SIDE}}
+Account: {{ACCOUNT}}

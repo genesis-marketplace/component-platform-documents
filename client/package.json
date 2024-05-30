@@ -1,0 +1,138 @@
+{
+  "name": "@genesislcap/pbc-documents-ui",
+  "description": "Genesis Document Management UI",
+  "version": "0.0.11",
+  "private": false,
+  "license": "SEE LICENSE IN license.txt",
+  "main": "dist/esm/index.js",
+  "types": "dist/foundation-file-server.d.ts",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "config": {
+    "PORT": 6060
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/foundation-file-server.d.ts",
+      "default": "./dist/esm/index.js"
+    },
+    "./config": {
+      "types": "./dist/dts/config/index.d.ts",
+      "default": "./dist/esm/config/index.js"
+    },
+    "./e2e": {
+      "default": "./test/e2e/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "genx": {
+    "app": {
+      "rootElement": "foundation-document-manager"
+    }
+  },
+  "scripts": {
+    "baseline": "npm run clean && npm run bootstrap",
+    "bootstrap": "npm install --no-fund --no-audit",
+    "bootstrap:ci": "npm ci --no-fund --no-audit",
+    "build": "genx build -b ts",
+    "build:webpack": "genx build",
+    "build:stats": "genx analyze",
+    "clean": "genx clean dist node_modules",
+    "circular": "npx madge --extensions ts --circular ./src",
+    "dev": "genx dev -e API_HOST",
+    "dev:docker": "npm run dev -- --host 0.0.0.0",
+    "dev:intellij": "genx dev -e",
+    "dev:no-open": "npm run dev -- --no-open",
+    "dev:https": "npm run dev -- --https",
+    "dev:webpack": "npm run dev -- -b webpack",
+    "lint": "genx lint --profile",
+    "lint:fix": "genx lint --fix",
+    "lint:eslint": "genx lint -l eslint --profile",
+    "lint:stylelint": "genx lint -l stylelint",
+    "serve": "genx serve",
+    "test": "genx test",
+    "test:coverage": "genx test --coverage",
+    "test:coverage:browser": "genx test --coverage --browser",
+    "test:e2e": "genx test --e2e",
+    "test:e2e:debug": "genx test --e2e --debug",
+    "test:e2e:ui": "genx test --e2e --interactive",
+    "test:unit:browser": "genx test --browser",
+    "test:unit:browser:watch": "genx test --browser --watch",
+    "test:unit:watch": "genx test --watch",
+    "test:debug": "genx test --debug"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint"
+    ],
+    "*.styles.ts": [
+      "stylelint"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@genesislcap/eslint-config",
+    "ignorePatterns": [
+      "**/dist/**",
+      "**/public/**",
+      "**/coverage/**",
+      "**/test/**",
+      "playwright.config.ts"
+    ]
+  },
+  "stylelint": {
+    "extends": "@genesislcap/stylelint-config"
+  },
+  "prettier": "@genesislcap/prettier-config",
+  "madge": {
+    "detectiveOptions": {
+      "ts": {
+        "skipTypeImports": true
+      }
+    }
+  },
+  "devDependencies": {
+    "@genesiscommunitysuccess/cep-fast-plugin": "4.1.1",
+    "@genesiscommunitysuccess/custom-elements-lsp": "4.1.1",
+    "@genesislcap/design-system-configurator": "~14",
+    "@genesislcap/eslint-config": "~14",
+    "@genesislcap/foundation-testing": "~14",
+    "@genesislcap/genx": "~14",
+    "@genesislcap/prettier-config": "~14",
+    "@genesislcap/stylelint-config": "~14",
+    "husky": "^7.0.4",
+    "lint-prepush": "^2.2.1",
+    "lint-staged": "^12.4.1",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.3.1"
+  },
+  "peerDependencies": {
+    "@genesislcap/foundation-comms": "~14",
+    "@genesislcap/foundation-entity-management": "~14",
+    "@genesislcap/foundation-events": "~14",
+    "@genesislcap/foundation-forms": "~14",
+    "@genesislcap/foundation-header": "~14",
+    "@genesislcap/foundation-layout": "~14",
+    "@genesislcap/foundation-login": "~14",
+    "@genesislcap/foundation-store": "~14",
+    "@genesislcap/foundation-ui": "~14",
+    "@genesislcap/foundation-utils": "~14",
+    "@genesislcap/foundation-zero": "~14",
+    "@genesislcap/foundation-zero-grid-pro": "~14",
+    "@genesislcap/grid-pro": "~14",
+    "@genesislcap/rapid-design-system": "~14",
+    "@genesislcap/rapid-grid-pro": "~14",
+    "@genesislcap/web-core": "~14",
+    "rxjs": "^7.5.4",
+    "tslib": "^2.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "customElements": "dist/custom-elements.json"
+}
