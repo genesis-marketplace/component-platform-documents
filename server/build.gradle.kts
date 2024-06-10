@@ -11,7 +11,7 @@ plugins {
     id("global.genesis.build")
     id("org.sonarqube") version "4.4.1.3373"
     id("org.gradle.test-retry") version "1.5.8"
-    id("org.jetbrains.kotlinx.kover") version "0.7.6"
+    id("org.jetbrains.kotlinx.kover") version "0.8.1"
     id("com.bnorm.power.kotlin-power-assert") version "0.13.0"
 }
 
